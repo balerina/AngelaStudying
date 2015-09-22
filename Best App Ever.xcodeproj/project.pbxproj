@@ -13,6 +13,9 @@
 		99F08C4D1BAF4A3B006B828E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99F08C4C1BAF4A3B006B828E /* Images.xcassets */; };
 		99F08C501BAF4A3B006B828E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99F08C4E1BAF4A3B006B828E /* LaunchScreen.xib */; };
 		99F08C5C1BAF4A3B006B828E /* Best_App_EverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F08C5B1BAF4A3B006B828E /* Best_App_EverTests.swift */; };
+		99F08C661BAF4FC4006B828E /* Pojedyncze, 20.09.2015 o 22.33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F08C651BAF4FC4006B828E /* Pojedyncze, 20.09.2015 o 22.33.jpg */; };
+		99F08C681BAF4FCA006B828E /* Pojedyncze, 20.09.2015 o 22.31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99F08C671BAF4FCA006B828E /* Pojedyncze, 20.09.2015 o 22.31.jpg */; };
+		99F08C6A1BAF54F8006B828E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F08C691BAF54F8006B828E /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		99F08C551BAF4A3B006B828E /* Best App EverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Best App EverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F08C5A1BAF4A3B006B828E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99F08C5B1BAF4A3B006B828E /* Best_App_EverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Best_App_EverTests.swift; sourceTree = "<group>"; };
+		99F08C651BAF4FC4006B828E /* Pojedyncze, 20.09.2015 o 22.33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pojedyncze, 20.09.2015 o 22.33.jpg"; sourceTree = "<group>"; };
+		99F08C671BAF4FCA006B828E /* Pojedyncze, 20.09.2015 o 22.31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pojedyncze, 20.09.2015 o 22.31.jpg"; sourceTree = "<group>"; };
+		99F08C691BAF54F8006B828E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 				99F08C4C1BAF4A3B006B828E /* Images.xcassets */,
 				99F08C4E1BAF4A3B006B828E /* LaunchScreen.xib */,
 				99F08C431BAF4A3B006B828E /* Supporting Files */,
+				99F08C691BAF54F8006B828E /* SecondViewController.swift */,
 			);
 			path = "Best App Ever";
 			sourceTree = "<group>";
@@ -90,6 +97,8 @@
 		99F08C431BAF4A3B006B828E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				99F08C671BAF4FCA006B828E /* Pojedyncze, 20.09.2015 o 22.31.jpg */,
+				99F08C651BAF4FC4006B828E /* Pojedyncze, 20.09.2015 o 22.33.jpg */,
 				99F08C441BAF4A3B006B828E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,8 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F08C681BAF4FCA006B828E /* Pojedyncze, 20.09.2015 o 22.31.jpg in Resources */,
 				99F08C4B1BAF4A3B006B828E /* Main.storyboard in Resources */,
 				99F08C501BAF4A3B006B828E /* LaunchScreen.xib in Resources */,
+				99F08C661BAF4FC4006B828E /* Pojedyncze, 20.09.2015 o 22.33.jpg in Resources */,
 				99F08C4D1BAF4A3B006B828E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99F08C6A1BAF54F8006B828E /* SecondViewController.swift in Sources */,
 				99F08C481BAF4A3B006B828E /* ViewController.swift in Sources */,
 				99F08C461BAF4A3B006B828E /* AppDelegate.swift in Sources */,
 			);
